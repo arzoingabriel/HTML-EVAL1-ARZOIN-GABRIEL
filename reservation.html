@@ -40,9 +40,10 @@
                 <input type="tel" name="tel" id="tel" required>
     
                 <br><br>
-    
-                <label for="dateNaissance">Date de naissance :</label>
-                <input type="date" id="dateNaissance" name="dateNaissance" required min="2006-01-01">    
+                
+                <label for="date">Date de naissance :</label>
+                <input type="date" id="naissance" name="naissance"  value="jj/mm/aaaa" max="2006-01-01"/>
+
             </fieldset>
     
             <fieldset>
@@ -62,7 +63,7 @@
                 <br><br>
     
                 <label for="durée">Nombre de jours :</label>
-                <input type="number" id="durée" name="durée">
+                <input type="number" id="durée" name="durée" min="1" max="30">
     
                 <br><br><br>
     
